@@ -1,0 +1,65 @@
+1. 인트로 영역 스푼 창 비율에 따른 스푼 크기 o
+2. 프로모션의 슬라이드 영역 화살표 창 크기에 따른 위치o
+3. 프로모션 슬라이드 자동 넘김 시 빈 공간 o
+(6번째 이미지부터 차례대로 나타날 시 -18%, -38%, -58%, -78%, -98%)
+4. 뉴아이템 영역 아이스크림 밑에 다른 이미지들 숨었다가 커서가 영역 들어 올 때
+  이미지들 펼쳐지기 o
+4-1. 뉴아이템 작은 이미지들 밑에 설명 숨겨졌다 마우스 오버시 설명 나타나기 o
+
+5. 비베네핏 영역 이미지 마우스 오버시 스케일 o
+
+6. 프로모션 영역 버튼 넣기 x(너무 지저분함)
+
+7. 가로 스크롤 없애기 ooo
+
+8. 뉴아이템 두번째( 이미지 겹치기 문제 해결완료 )
+
+9. 미디어쿼리(js도 변경가능?)
+(맥북 가로 1470px)
+
+10. 서브페이지만들기(1,2): 메뉴,하단 1,2 동일
+
+- sub1 : 4등분(  상단 /메뉴 / 메인 / 신제품 / 하단)
+
+- sub2 : 3등분 (메뉴 / 메인 / 하단)
+
+vertical-align: middle;
+menu-area(30px) main-new(1964px) sub-new(418px)
+
+
+11. 비베네핏 영역 그리드 사용하기 (미디어쿼리하면 1줄에 6개가 2줄 3개로 )
+
+12. footer영역 미디어쿼리시 높이값 삭제하기
+
+13. 뉴아이템 미디어쿼리시 이미지 조절하기(ex:100vw)
+
+
+
+
+
+
+
+
+====================================================
+    <!-- <script>
+      // 대상 : .main-item
+      const mainItem =  document.querySelector(".main-item"); 
+      // 데이터 : ic_data.js의  icMenuData 배열
+      const imData = icData.icMenuData;
+
+      let hcode = `<ul>`;
+        imData.forEach((v) => {
+          hcode += `
+          <li>
+            <figure>
+              <img src="./images/sub/${v.imgName}.png" alt="${v.title}">
+            <figcaption>${v.title}</figcaption>
+            <figure>
+          </li>
+          `;          
+        }); //////////////// foreach 문 ///////////
+
+        hcode += '</ul>';
+        console.log(hcode);
+        mainItem.innerHTML = hcode;
+    </script> -->
