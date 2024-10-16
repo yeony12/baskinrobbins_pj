@@ -38,28 +38,3 @@ menu-area(30px) main-new(1964px) sub-new(418px)
 
 
 
-
-
-====================================================
-    <!-- <script>
-      // 대상 : .main-item
-      const mainItem =  document.querySelector(".main-item"); 
-      // 데이터 : ic_data.js의  icMenuData 배열
-      const imData = icData.icMenuData;
-
-      let hcode = `<ul>`;
-        imData.forEach((v) => {
-          hcode += `
-          <li>
-            <figure>
-              <img src="./images/sub/${v.imgName}.png" alt="${v.title}">
-            <figcaption>${v.title}</figcaption>
-            <figure>
-          </li>
-          `;          
-        }); //////////////// foreach 문 ///////////
-
-        hcode += '</ul>';
-        console.log(hcode);
-        mainItem.innerHTML = hcode;
-    </script> -->
