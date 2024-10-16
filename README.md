@@ -1,3 +1,5 @@
 # BaskinRobbins_PJ
 
-![main_logo 복사본](https://github.com/user-attachments/assets/a1fc7f6e-3b7c-422d-bacb-b32c6f4872e3)
+![logo](https://github.com/user-attachments/assets/8655eb6e-3304-4a7d-92d4-0ec3e0162e18)
+
+
