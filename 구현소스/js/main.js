@@ -63,7 +63,7 @@ const qsa = (x) => document.querySelectorAll(x);
     let isRbtn = sts ? this.classList.contains("ab2") : true;
 
     if (isRbtn) {
-      // 1. 먼저 왼쪽으로 이동하기
+      // 먼저 왼쪽으로 이동하기
       proslider.style.left = slideGap;
       proslider.style.transition = ".4s ease-in-out";
 
