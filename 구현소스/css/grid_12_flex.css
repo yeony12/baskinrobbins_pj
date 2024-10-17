@@ -18,11 +18,10 @@
 [class*='col-']{
   box-sizing: border-box;
   padding: 10px;
-  /* 원래는 높이값 100%로 부모박스 채우기를 해야하지만 flex의 자식요소는 자동으로 부모를 채우도록 설정되어 있다 */
 }
 
 
-/* 컨텐트 박스 -> 플렉스 박스는 싸고 있는 부모를 설정함*/
+/* 컨텐트 박스 */
 .cont-box{
   display: flex;
   height: 100%;

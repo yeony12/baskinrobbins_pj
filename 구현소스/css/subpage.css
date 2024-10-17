@@ -92,7 +92,6 @@
   }
   .sub-new-item-box{
     margin-top: 40px;
-    /* margin-left: calc(50% - 517px); */
     margin-left: calc(50% - 542px);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -116,9 +115,6 @@
   
   
   /***************************** 서브페이지2 *****************************/
-  /* #main-cont{
-    background-color: white;
-  } */
 
   .main-header{
     padding-top: 50px;

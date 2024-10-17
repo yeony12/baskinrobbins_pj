@@ -9,9 +9,6 @@
 @import url(./subpage.css);
 
 
-body * {
-  /* outline: 2px dashed #ccc; */
-}
 
 body{
   background: url(../images/bg_hero.jpg);
